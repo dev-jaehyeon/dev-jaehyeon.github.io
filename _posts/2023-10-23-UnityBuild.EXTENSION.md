@@ -5,10 +5,6 @@ categories: [Unreal, Study]
 math: true
 mermaid: true
 ---
-## 더 볼만 자료:
-
-넷마블 기술블로그, [https://netmarble.engineering/unity-build-can-pump-up-build-speed/](https://netmarble.engineering/unity-build-can-pump-up-build-speed/)
-언리얼 공식 문서, [https://docs.unrealengine.com/4.27/en-US/ProductionPipelines/BuildTools/UnrealBuildTool/TargetFiles/](https://docs.unrealengine.com/4.27/en-US/ProductionPipelines/BuildTools/UnrealBuildTool/TargetFiles/)
 
 ## 이야기
 
@@ -23,8 +19,6 @@ UnityBuild (Unity Engine 아님)는 C와 C++ 소스를 빌드할 때, 빌드 시
 하지만 UnityBuild 개념을 적용해 헤더를 한 번만 컴파일하게 하면 용량도 줄어들고 빌드 시간도 단축할 수 있다. 직접 UnityBuild를 적용하는 방법은 UnityBuild용 cpp파일에 몰아 넣기 등으로 적용할 수 있다.
 
 언리얼 엔진에서는 기본적으로 UnityBuild가 적용되어 있다. 하지만 언리얼 엔진에서 UnityBuild를 끄는 방법은 여러가지가 있는데, 그중 하나로, 엔진 디렉토리에서 Engine\Saved\UnrealBuildTool 의 BuildConfiguration.xml에 UnityBuild 비활성화 옵션을 추가하는 것이다.
-
-출처: [https://gist.github.com/leegoonz/b98f440e6329836ea18bd94e4b778fe2](https://gist.github.com/leegoonz/b98f440e6329836ea18bd94e4b778fe2)
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
