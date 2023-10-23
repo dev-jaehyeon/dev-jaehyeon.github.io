@@ -17,11 +17,11 @@ mermaid: true
 
 ### Net Cull Distance
 
-![Untitled](/assets/UENetCullDistance/NetReplicationExp.png)
+![Untitled]("assets/UE_NetCullDistance/NetReplicationExplain.png")
 
 Net Cull Distance의 설명을 보면 일정 거리 안에 있어야 레플리케이션이 이루어진다고 되어 있다. 이 옵션은 액터의 디테일 패널에 있고 Net Cull Distance Squared라고 되어 있다.
 
-![Untitled](/assets/UENetCullDistance/NetCullDistanceOption.png)
+![Untitled](assets/UE_NetCullDistance/NetCullDistanceOption.png)
 
 넷 컬 디스턴스 제곱이라고 되어 있는데, 저 225,000,000의 제곱근은 15,000 언리얼 유닛이고 해당 액터와 클라이언트 사이의 거리가 저 안에 있어야 레플리케이션이 된다는 것이다.
 
@@ -42,11 +42,11 @@ double Dist = FVector::Distance(GetActorLocation(), OtherPawn->GetActorLocation(
 Distance = (float)Dist;
 ```
 
-![Untitled](/assets/UENetCullDistance/ConfirmingReplication.png)
+![Untitled](assets/UE_NetCullDistance/ConfirmingReplication.png)
 
 이제 거리가 15,000을 넘어가면 Net Cull Distance를 넘어서 더 이상 레플리케이션이 되지 않을 것이다.
 
-![Untitled](/assets/UENetCullDistance/NetCullDistanceTest.gif)
+![Untitled](assets/UE_NetCullDistance/NetCullDistanceTest.gif)
 
 ### 결론:
 
