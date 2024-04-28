@@ -34,7 +34,7 @@ adb shell setprop debug.ue.commandline -tracehost=127.0.0.1
 - 안드로이드 기기에서 앱을 켠다.
 - UnrealInsight에서 LIVE, Game이라는 세션으로 새로 생성된다. 그것을 실행한다.
 
-# Test
+## Test
 
 안드로이드 apk 파일이 준비되었고 개발자 모드가 켜진 안드로이드 기기에 설치했다고 치고 테스트를 해본다.
 cmd를 켠 후 위 명령어를 입력한다.
