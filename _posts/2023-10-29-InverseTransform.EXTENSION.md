@@ -1,8 +1,8 @@
 ---
 title: Inverse Transform과 Grandparent에 대한 RelativeTransform
 date: 2023-10-29 09:00:00 +0900
-categories: [Unreal, Study]
-tags: [Transform]     # TAG names should always be lowercase
+categories: [Unreal]
+tags: [transform]     # TAG names should always be lowercase
 math: true
 mermaid: true
 ---

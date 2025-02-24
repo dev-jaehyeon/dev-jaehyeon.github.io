@@ -1,8 +1,8 @@
 ---
 title: Unreal Rendering Pass
 date: 2024-04-28 09:00:00 +0900
-categories: [Unreal, Study]
-tags: [RenderDoc, RenderingPass]     # TAG names should always be lowercase
+categories: [Unreal]
+tags: [renderdoc, renderingpass]     # TAG names should always be lowercase
 math: true
 mermaid: true
 ---

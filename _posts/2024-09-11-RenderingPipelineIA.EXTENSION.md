@@ -1,8 +1,8 @@
 ---
 title: RenderDoc으로 보는 Rendering Pipeline - IA(Input Assembly)
 date: 2024-09-11 09:00:00 +0900
-categories: [Graphics, Study]
-tags: [renderingpipeline, RenderDoc]     # TAG names should always be lowercase
+categories: [Graphics]
+tags: [renderingpipeline, renderdoc]     # TAG names should always be lowercase
 math: true
 mermaid: true
 ---

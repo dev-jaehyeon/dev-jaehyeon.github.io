@@ -1,8 +1,8 @@
 ---
 title: Unreal Insight로 Android trace하기
 date: 2024-04-21 09:00:00 +0900
-categories: [Unreal, Study]
-tags: [UnrealInsight]     # TAG names should always be lowercase
+categories: [Unreal]
+tags: [unrealinsight]     # TAG names should always be lowercase
 math: true
 mermaid: true
 ---

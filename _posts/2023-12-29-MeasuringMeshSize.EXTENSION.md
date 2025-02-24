@@ -1,8 +1,8 @@
 ---
 title: Mesh의 Unreal Unit Size 구하기
 date: 2023-12-29 09:00:00 +0900
-categories: [Unreal, Study]
-tags: [UnrealUnit]     # TAG names should always be lowercase
+categories: [Unreal]
+tags: [unrealunit]     # TAG names should always be lowercase
 math: true
 mermaid: true
 ---
