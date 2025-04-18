@@ -1,5 +1,5 @@
 ---
-title: Houdini에서 RBD 시뮬레이션을 Unreal로 가져오기기
+title: Houdini에서 RBD 시뮬레이션을 Unreal로 가져오기 -Alembic
 date: 2025-03-03 09:00:00 +0900
 categories: [Houdini]
 tags: [alembic]     # TAG names should always be lowercase
