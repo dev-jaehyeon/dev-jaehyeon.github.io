@@ -145,4 +145,4 @@ bool UPointerCheckComponent::CheckActor()
 ``
 발생 과정과 상관없이, 액터는 RF_PendingKill 로 표시되어 다음 가비지 컬렉션 주기 동안 UE가 메모리에서 할당 해제합니다. 또한, 보류 중인 킬을 수동으로 확인하는 대신 FWeakObjectPtr<AActor> 를 사용하는 것이 더 깔끔합니다.
 ``<br/>
-강한 참조는 필요한 부분에만 쓰고 나머진 WeakObjectPtr로 참조하면 참조 그래프에 부담도 덜하고 크래시도 피할 수 있을 것이다.
+강한 참조는 필요한 부분에만 쓰고 나머진 WeakObjectPtr로 참조하면 참조 그래프에 부담도 덜하고 크래시도 피할 수 있다.
